@@ -1,0 +1,11 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -g -fsanitize=address -fno-omit-frame-pointer /mnt/data/Assignment4_GitHub_Code/Q4/Q4_RepairedAccounts.cpp -o /mnt/data/Assignment4_GitHub_Code/Q4/Q4_RepairedAccounts
+COMPILER:
+
+RUN:
+3.5
+4
+~Account
+~SeniorAccount
+~Account
+
+EXIT: 0

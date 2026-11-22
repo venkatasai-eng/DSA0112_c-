@@ -1,0 +1,7 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -g /mnt/data/Assignment4_GitHub_Code/Q2/Q2_DiamondNonVirtual.cpp -o /mnt/data/Assignment4_GitHub_Code/Q2/Q2_DiamondNonVirtual
+COMPILER:
+
+RUN:
+Person Student Person Staff TA 
+
+EXIT: 0

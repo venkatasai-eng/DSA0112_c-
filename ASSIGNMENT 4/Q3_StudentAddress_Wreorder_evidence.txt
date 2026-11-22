@@ -1,0 +1,17 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -g /mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder.cpp -o /mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder
+COMPILER:
+/mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder.cpp: In constructor ‘Student::Student(const std::string&, int, long long int, const std::string&, int)’:
+/mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder.cpp:15:13: warning: ‘Student::home’ will be initialized after [-Wreorder]
+   15 |     Address home;
+      |             ^~~~
+/mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder.cpp:14:15: warning:   ‘long long int Student::regNo’ [-Wreorder]
+   14 |     long long regNo;
+      |               ^~~~~
+/mnt/data/Assignment4_GitHub_Code/Q3/Q3_StudentAddress_Wreorder.cpp:18:5: warning:   when initialized here [-Wreorder]
+   18 |     Student(const std::string& n, int a, long long r,
+      |     ^~~~~~~
+
+RUN:
+192311001 Kavya (19) Salem-636001
+
+EXIT: 0
